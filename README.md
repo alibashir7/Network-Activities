@@ -40,12 +40,10 @@ You will now be logged into the Windows 10 VM. Go through the setup screen until
 <br />
 <br /><img src="https://imgur.com/eQBWze4.png" height="80%" width="80%" alt=/>
 <br />
-<br /><br /><img src=".png" height="80%" width="80%" alt=/>
-<br />
 <br />
 At this point, watch the following video in order to download Wireshark on your VM. Make sure the wireshark installation is done on your VM and not your personal computer, and use the Edge browser in order to do so. https://youtu.be/Y-JNp_DDQ9w?si=0tep_5WhHWXqFWlG
 
 When you finsish you should see the Wireshark application on your VMs home page. If not you can search for the application in the Windows start menu.
-<br /><br /><img src="https://imgur.com/undefined.png" height="80%" width="80%" alt=/>
+<br /><br /><img src="https://imgur.com/YPb4Q3q.png" height="80%" width="80%" alt=/>
 <br />
 <br />
