@@ -11,7 +11,7 @@ In this lab, we will create a Windows 10 and Ubuntu virtual machines (VM) in Azu
 <h2>Creating Windows 10 VM in Azure:</h2>
 
 The first thing we will do is create a Windows 10 VM in Azure. Follow the following images below and create an exact replica VM. Don't create a resource group; we will let Azure create a resource group for us. <br/>
-<img src=".png" height="80%" width="80%" alt=/>
+<img src="https://imgur.com/tKEqePl.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 <img src=".png" height="80%" width="80%" alt=/>
