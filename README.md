@@ -18,14 +18,14 @@ The first thing we will do is create a Windows 10 VM in Azure. Follow the follow
 <br />
 <br /><img src="https://imgur.com/nRapBKP.png" height="80%" width="80%" alt=/>
 <br />
-Make Sure to create your own username and password for the VM we will use it to log into the computer.
+Make sure to create your own username and password for the VM; we will use them to log into the computer.
 <br /><img src="https://imgur.com/LVirbVS.png" height="80%" width="80%" alt=/>
 <br />
 <br /><img src="https://imgur.com/kuzsASQ.png" height="80%" width="80%" alt=/>
 <br />
 <br /><img src="https://imgur.com/P7zCi0I.png" height="80%" width="80%" alt=/>
 <br />
-Open Remote Desktop Connection on your computer and type in the public IP address of your VM shown in the VM portal. Follow it up by enetering the VM credentials we created.
+Open Remote Desktop Connection on your computer and type in the public IP address of your VM shown in the VM portal. Follow it up by entering the VM credentials we created.
 <br /><img src="https://imgur.com/BhnckxK.png" height="80%" width="80%" alt=/>
 <br />
 <br /><img src="https://imgur.com/o7GQXoN.png" height="80%" width="80%" alt=/>
@@ -34,7 +34,7 @@ Open Remote Desktop Connection on your computer and type in the public IP addres
 <br /><img src="https://imgur.com/BLP4JKi.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-You will now be logged into the windows 10 VM. Go through the setup screen until you arrive at the homepage.
+You will now be logged into the Windows 10 VM. Go through the setup screen until you arrive at the homepage.
 <br /><img src="https://imgur.com/IUsSEXm.png" height="80%" width="80%" alt=/>
 <br />
 <br />
@@ -43,4 +43,5 @@ You will now be logged into the windows 10 VM. Go through the setup screen until
 <br /><br /><img src=".png" height="80%" width="80%" alt=/>
 <br />
 <br />
+At this point, watch the following video in order to download Wireshark on your VM. Make sure the wireshark installation is done on your VM and not your personal computer, and use the Edge browser in order to do so. https://youtu.be/Y-JNp_DDQ9w?si=0tep_5WhHWXqFWlG
 
