@@ -47,4 +47,34 @@ When you finish you should see the Wireshark application on your VM's home page.
 <br /><img src="https://imgur.com/YPb4Q3q.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-Now we will create an Ubuntu VM in Azure. Ubuntu is an open-source operating system that runs on Linux. Follow the example below to create an exact replica of the of the VM. 
+Now we will create an Ubuntu Server VM in Azure. Ubuntu is an open-source operating system that runs on Linux. Follow the example below to create an exact replica of the of the VM. 
+<img src="https://imgur.com/tKEqePl.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<img src="https://imgur.com/MSrkkNk.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+We will name this machine VM2, and we will add it to VM 1's resource group. 
+<br /><img src="https://imgur.com/DxyyHxM.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Once again, don't forget to create your own username and password for the VM's login credentials. 
+<br /><img src="https://imgur.com/5H5JFuf.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src="https://imgur.com/5SLIpSA.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Make sure the virtual network is set to VM1 - vnet.
+<br /><img src="https://imgur.com/kkRCkdA.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src="https://imgur.com/zX5PdM9.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src="https://imgur.com/3eRLwJk.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src="https://imgur.com/wrcJ70j.png" height="80%" width="80%" alt=/>
+<br />
+<br />
