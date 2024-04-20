@@ -41,12 +41,18 @@ You will now be logged into the Windows 10 VM. Go through the setup screen until
 <br /><img src="https://imgur.com/eQBWze4.png" height="80%" width="80%" alt=/>
 <br />
 <br />
+
+<h2>Downloading Wireshark in VM1:</h2>
+
 At this point, watch the following video in order to download Wireshark on your VM. Make sure the wireshark installation is done on your VM and not your personal computer, and use the Edge browser in order to do so. https://youtu.be/Y-JNp_DDQ9w?si=0tep_5WhHWXqFWlG 
 
 When you finish you should see the Wireshark application on your VM's home page. If not, you can search for the application in the Windows Start menu.
 <br /><img src="https://imgur.com/YPb4Q3q.png" height="80%" width="80%" alt=/>
 <br />
 <br />
+
+<h2>Creating Ubuntu Server VM in Azure:</h2>
+
 Now we will create an Ubuntu Server VM in Azure. Ubuntu is an open-source operating system that runs on Linux. Follow the example below to create an exact replica of the of the VM. 
 <img src="https://imgur.com/tKEqePl.png" height="80%" width="80%" alt=/>
 <br />
@@ -78,6 +84,9 @@ Make sure the virtual network is set to VM1 (vnet).
 <br /><img src="https://imgur.com/wrcJ70j.png" height="80%" width="80%" alt=/>
 <br />
 <br />
+
+<h2>Wireshark, Network Security Groups, and Protocals:</h2>
+
 Now we will go back into VM 1 and open the wireshark application we downloaded. Once open, we will click the blue icon in the top left corner of the screen.
 <br /><img src="https://imgur.com/lAZ6EBx.png" height="80%" width="80%" alt=/>
 <br />
@@ -136,11 +145,32 @@ Let's delete the rule now, and everything should go back to normal.
 <br /><img src="https://imgur.com/pEqvKPj.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-Give wireshark and the command prompt a moment, and you should start to see the ping request work like normal again.
+Give wireshark and the command prompt a moment, and you should start to see the ping request work like normal again. To stop the continous ping just hit Ctrl C on your keyboard.
 <br /><img src="https://imgur.com/6EaqfW0.png" height="80%" width="80%" alt=/>
 <br />
 <br />
+Next, we will explore SSH traffic on Wireshark. SSH (Secure Shell Protocal) is like a remote desktop connection, except it only gives us access to the other computer's command line. Once again, type in ssh in the wireshark search bar and hit enter. We are now filtering through ssh traffic.
+<br /><img src="https://imgur.com/FomkYCJ.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Now to ssh into our VM2, we will type in the command prompt: ssh username@private IP address VMs. In my case, that will be ssh cclabusers@10.0.0.5. We will be presented with yes or no; type in yes, then type in your VM2's password. You will not be able to see the password you type in on your screen, so if you get it wrong, just keep trying until you type it in correctly. As we are trying to ssh into our VM2 you will see the ssh traffic generating in wireshark.
+<br /><img src="https://imgur.com/PrGllvB.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src="https://imgur.com/EIsCZhk.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Anytime we type in commands in the terminal of VM2 you will see it generate traffic in wireshark. To get out of the ssh we just type in exit and it returns us to our VM1 command prompt.
+<br /><img src="https://imgur.com/9nfJ3aN.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src="https://imgur.com/YYDWpWv.png" height="80%" width="80%" alt=/>
+<br />
+<br />
 
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
 <br /><img src=".png" height="80%" width="80%" alt=/>
 <br />
 <br />
