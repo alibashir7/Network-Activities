@@ -104,7 +104,7 @@ Now ping apple.com, and once again, we see the traffic that is generated in Wire
 <br /><img src="https://imgur.com/tQbCng7.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src="https://imgur.com/kM19RzX.png" height="80%" width="80%" alt=/>
+<br /><img src="https://imgur.com/amcbB2g.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 What we will do now is go into our Azure portal and change the firewall in our VM2 to not allow ICMP traffic to come through. When we do that, this should interrupt the traffic coming through our ping request in the command prompt. Essentially, what it'll do is prevent our VM1 from receiving reply messages from our VM2. To do this, we will go to the network security group in our Azure portal, select VM2, head to inbound security rules, and add a new rule. Follow along below.
@@ -125,14 +125,34 @@ The rule will be added upon successful completion.
 <br /><img src="https://imgur.com/04p50Cg.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-Give your VM1 some time, and you should see the ping request start to time out. You'll also notice in wireshark that VM1 is requesting but receiving no reply from VM2. 
+Give your VM1 some time, and you should see the ping request start to time out in the command prompt. You'll also notice in wireshark that VM1 is requesting but receiving no reply from VM2. This is because it is getting blocked by VM2's firewall.  
 <br /><img src="https://imgur.com/JuGaVwb.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+Let's delete the rule now, and everything should go back to normal.
+<br /><img src="https://imgur.com/e27IUdg.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+<br /><img src="https://imgur.com/pEqvKPj.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Give wireshark and the command prompt a moment, and you should start to see the ping request work like normal again.
+<br /><img src="https://imgur.com/6EaqfW0.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
