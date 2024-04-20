@@ -86,7 +86,7 @@ You will now see the live traffic that is happening on our VM.
 <br /><img src="https://imgur.com/XJSaLb4.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-To filter the traffic that is coming through in the search bar, we will type icmp. ICMP (Internet Control Messaging Protocal) is a protocal that Ping uses. Ping is used to test the connectivity between different hosts on the network or internet. 
+To filter the traffic that is coming through in the search bar, we will type icmp and hit enter. ICMP (Internet Control Messaging Protocal) is a protocal that Ping uses. Ping is used to test the connectivity between different hosts on the network or internet. 
 <br /><img src="https://imgur.com/5s3fEHw.png" height="80%" width="80%" alt=/>
 <br />
 <br />
@@ -100,28 +100,33 @@ Next, quickly go back to our Azure portal and make note of the private IP addres
 <br /><img src="https://imgur.com/eMXo5xt.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+Now ping apple.com, and once again, we see the traffic that is generated in Wireshark. After that, type in the command prompt ping -t 10.0.0.5. In your case, this will be the private IP address of your VM2. This will generate a continuous ping in the command prompt, which you will see in wireshark. 
+<br /><img src="https://imgur.com/tQbCng7.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+<br /><img src="https://imgur.com/kM19RzX.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+What we will do now is go into our Azure portal and change the firewall in our VM2 to not allow ICMP traffic to come through. When we do that, this should interrupt the traffic coming through our ping request in the command prompt. Essentially, what it'll do is prevent our VM1 from receiving reply messages from our VM2. To do this, we will go to the network security group in our Azure portal, select VM2, head to inbound security rules, and add a new rule. Follow along below.
+<br /><img src="https://imgur.com/VUbjVP5.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+<br /><img src="https://imgur.com/v3qhv5A.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+<br /><img src="https://imgur.com/EhqRzVz.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+Fill in the following below and hit add. If at any time you are confused about exactly what we are doing, you can click the i icon next to each rule.
+<br /><img src="https://imgur.com/gQEpnp5.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+The rule will be added upon successful completion.
+<br /><img src="https://imgur.com/04p50Cg.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+Give your VM1 some time, and you should see the ping request start to time out. You'll also notice in wireshark that VM1 is requesting but receiving no reply from VM2. 
+<br /><img src="https://imgur.com/JuGaVwb.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 <br /><img src=".png" height="80%" width="80%" alt=/>
