@@ -65,7 +65,7 @@ Once again, don't forget to create your own username and password for the VM's l
 <br /><img src="https://imgur.com/5SLIpSA.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-Make sure the virtual network is set to VM1 - vnet.
+Make sure the virtual network is set to VM1 (vnet).
 <br /><img src="https://imgur.com/kkRCkdA.png" height="80%" width="80%" alt=/>
 <br />
 <br />
@@ -78,3 +78,56 @@ Make sure the virtual network is set to VM1 - vnet.
 <br /><img src="https://imgur.com/wrcJ70j.png" height="80%" width="80%" alt=/>
 <br />
 <br />
+Now we will go back into VM 1 and open the wireshark application we downloaded. Once open, we will click the blue icon in the top left corner of the screen.
+<br /><img src="https://imgur.com/lAZ6EBx.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+You will now see the live traffic that is happening on our VM. 
+<br /><img src="https://imgur.com/XJSaLb4.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+To filter the traffic that is coming through in the search bar, we will type icmp. ICMP (Internet Control Messaging Protocal) is a protocal that Ping uses. Ping is used to test the connectivity between different hosts on the network or internet. 
+<br /><img src="https://imgur.com/5s3fEHw.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+Next, quickly go back to our Azure portal and make note of the private IP address of our VM2. Proceed back into VM1, and open the command prompt using the start menu. Open it as an administrator. Once open, we will ping our VM2 using the private IP address we copied, as shown in the image below. Right away, you'll see the live ICMP traffic on Wireshark. You'll see the request and reply traffic that is generated from both machines. 
+<br /><img src="https://imgur.com/PpBQbSy.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src="https://imgur.com/4jSybms.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src="https://imgur.com/eMXo5xt.png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+<br /><img src=".png" height="80%" width="80%" alt=/>
+<br />
+<br />
+
