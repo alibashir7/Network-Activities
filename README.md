@@ -1,15 +1,18 @@
 <h1>Network Activities</h1>
 
 <h2>Description</h2>
-In this lab, we will create a Windows 10 and Ubuntu virtual machines (VM) in Azure and perform some network activities. Specifically, we will work with Azure Network Security Groups (Firewall Resources), Wireshark (a protocal analyzer), and a bunch of command-line tools. The purpose of this lab is to gain a better understanding of firewalls and solidify our understanding of network protocols and ports.
+In this lab, we will create a Windows 10 and Ubuntu Server virtual machines (VM) in Azure and perform some network activities. Specifically, we will work with Azure Network Security Groups (Firewall Resources), Wireshark (a protocal analyzer), and a bunch of command-line tools. The purpose of this lab is to gain a better understanding of firewalls and solidify our understanding of network protocols and ports.
 <br />
 
 <h2>Environments Used </h2>
 - <b>Windows 10</b> (21H2)
 
+<h2>Network Protocal and Ports</h2>
+A network protocal is an establish set of rules that determine how data is transmitted between different devices in the same network.
+There are two protocals that are used for transmitting data over networks, particularly the internet. These protocals are TCP and UDP. TCP (Transmission Control Protocal) is a connection-oriented protocol, meaning it gaurantees dilivery of network traffic. UDP (User Datagram Protocal) this is the best dilivery of network traffic as its much quicker with less overhead. The biggest downside of this method is that the traffic might not get to its destination.
+There are two types of transmission protocals
   
 <h2>Creating Windows 10 VM in Azure:</h2>
-
 The first thing we will do is create a Windows 10 VM in Azure. Follow the following images below and create an exact replica VM. Don't create a resource group; we will let Azure create a resource group for us. <br/>
 <img src="https://imgur.com/tKEqePl.png" height="80%" width="80%" alt=/>
 <br />
@@ -160,14 +163,14 @@ Now to ssh into our VM2, we will type in the command prompt: ssh username@privat
 <br /><img src="https://imgur.com/EIsCZhk.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-Anytime we type in commands in the terminal of VM2 you will see it generate traffic in wireshark. To get out of the ssh we just type in exit and it returns us to our VM1 command prompt.
+Anytime we type in a command in the terminal of VM2 you will see it generate traffic in wireshark. To get out of the ssh we just type in exit and it returns us to our VM1 terminal.
 <br /><img src="https://imgur.com/9nfJ3aN.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 <br /><img src="https://imgur.com/YYDWpWv.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-
+Now we wil filter traffic for dhcp. DHCP() is used to automatically assign an IP address to a host.
 <br /><img src=".png" height="80%" width="80%" alt=/>
 <br />
 <br />
