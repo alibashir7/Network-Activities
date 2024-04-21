@@ -10,7 +10,6 @@ In this lab, we will create a Windows 10 and Ubuntu Server virtual machines (VM)
 <h2>Network Protocal and Ports</h2>
 A network protocal is an establish set of rules that determine how data is transmitted between different devices in the same network.
 There are two protocals that are used for transmitting data over networks, particularly the internet. These protocals are TCP and UDP. TCP (Transmission Control Protocal) is a connection-oriented protocol, meaning it gaurantees dilivery of network traffic. UDP (User Datagram Protocal) this is the best dilivery of network traffic as its much quicker with less overhead. The biggest downside of this method is that the traffic might not get to its destination.
-There are two types of transmission protocals
   
 <h2>Creating Windows 10 VM in Azure:</h2>
 The first thing we will do is create a Windows 10 VM in Azure. Follow the following images below and create an exact replica VM. Don't create a resource group; we will let Azure create a resource group for us. <br/>
@@ -170,22 +169,16 @@ Anytime we type in a command in the terminal of VM2 you will see it generate tra
 <br /><img src="https://imgur.com/YYDWpWv.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-Now we wil filter traffic for dhcp. DHCP() is used to automatically assign an IP address to a host.
-<br /><img src=".png" height="80%" width="80%" alt=/>
+Now we will filter traffic for dhcp. DHCP(Dynamic Host Configuration Protocal) is used to automatically assign an IP address to a host.
+<br /><img src="https://imgur.com/4RuMNzb.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+To trigger dhcp traffic lets type in the terminal ipconfig /renew. This command is used to automatically  assign our IP address to a host. 
+<br /><img src="https://imgur.com/RXjJiPX.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
+<br /><img src="https://imgur.com/kkqB93G.png" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
-<br />
-<br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
-<br />
-<br />
-<br /><img src=".png" height="80%" width="80%" alt=/>
-<br />
-<br />
+
+<h2> Conclusion </h2>
