@@ -13,34 +13,34 @@ There are two protocals that are used for transmitting data over networks, parti
   
 <h2>Creating Windows 10 VM in Azure:</h2>
 The first thing we will do is create a Windows 10 VM in Azure. Follow the following images below and create an exact replica VM. Don't create a resource group; we will let Azure create a resource group for us. <br/>
-<img src="https://imgur.com/tKEqePl.png" height="80%" width="80%" alt=/>
+<img src="https://github.com/alibashir7/Network-Activities/assets/165006117/242dd479-7ebb-4248-a534-e792ed508721" height="80%" width="80%" alt=/>
 <br />
 <br />
-<img src="https://imgur.com/MSrkkNk.png" height="80%" width="80%" alt=/>
+<img src="https://github.com/alibashir7/Network-Activities/assets/165006117/8285c48e-231d-43f5-a21a-117b6fab4acf" height="80%" width="80%" alt=/>
 <br />
-<br /><img src="https://imgur.com/nRapBKP.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/18540b1f-9215-4274-8dd7-d922ecd47e37" height="80%" width="80%" alt=/>
 <br />
 Make sure to create your own username and password for the VM; we will use them to log into the computer.
-<br /><img src="https://imgur.com/LVirbVS.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/ce0637dc-23aa-4aa0-8c65-d30419e74fbe" height="80%" width="80%" alt=/>
 <br />
-<br /><img src="https://imgur.com/kuzsASQ.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/95fd480c-88c6-4ce4-bc1f-7ab4d2558287" height="80%" width="80%" alt=/>
 <br />
-<br /><img src="https://imgur.com/P7zCi0I.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/c7cfc032-6511-4961-8969-9920a3121cd4" height="80%" width="80%" alt=/>
 <br />
 Open Remote Desktop Connection on your computer and type in the public IP address of your VM shown in the VM portal. Follow it up by entering the VM credentials we created.
-<br /><img src="https://imgur.com/BhnckxK.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/eab64446-3072-499c-8a59-810dfc12d0c8" height="80%" width="80%" alt=/>
 <br />
-<br /><img src="https://imgur.com/o7GQXoN.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/8ec1e818-910a-4926-a18f-25959d1fac9d" height="80%" width="80%" alt=/>
 <br />
 <br />
 <br /><img src="https://imgur.com/BLP4JKi.png" height="80%" width="80%" alt=/>
 <br />
 <br />
 You will now be logged into the Windows 10 VM. Go through the setup screen until you arrive at the homepage.
-<br /><img src="https://imgur.com/IUsSEXm.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/01a903eb-1bd5-4e5d-836c-e3c5bf8ad174" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src="https://imgur.com/eQBWze4.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/d5547679-70be-4ad0-8e1e-8e970d774004" height="80%" width="80%" alt=/>
 <br />
 <br />
 
@@ -56,34 +56,34 @@ When you finish you should see the Wireshark application on your VM's home page.
 <h2>Creating Ubuntu Server VM in Azure:</h2>
 
 Now we will create an Ubuntu Server VM in Azure. Ubuntu is an open-source operating system that runs on Linux. Follow the example below to create an exact replica of the of the VM. 
-<img src="https://imgur.com/tKEqePl.png" height="80%" width="80%" alt=/>
+<img src="https://github.com/alibashir7/Network-Activities/assets/165006117/e8996971-23e9-47f8-bb7b-f84ee8d8b5cf" height="80%" width="80%" alt=/>
 <br />
 <br />
-<img src="https://imgur.com/MSrkkNk.png" height="80%" width="80%" alt=/>
+<img src="https://github.com/alibashir7/Network-Activities/assets/165006117/c76c34c8-b9bf-48c7-9a08-ba3e09cea3bf" height="80%" width="80%" alt=/>
 <br />
 <br />
 We will name this machine VM2, and we will add it to VM 1's resource group. 
-<br /><img src="https://imgur.com/DxyyHxM.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/3c2addfc-8b28-4a72-a7d7-1d1c18a75e99" height="80%" width="80%" alt=/>
 <br />
 <br />
 Once again, don't forget to create your own username and password for the VM's login credentials. 
-<br /><img src="https://imgur.com/5H5JFuf.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/c3abb536-aef7-4312-a8e4-a7fc97ddff18" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src="https://imgur.com/5SLIpSA.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/9cbb81cd-8a8d-411d-aa7c-5df51c8a3e6c" height="80%" width="80%" alt=/>
 <br />
 <br />
 Make sure the virtual network is set to VM1 (vnet).
-<br /><img src="https://imgur.com/kkRCkdA.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/befd9e08-c073-400b-a5ed-8fc06dbee378" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src="https://imgur.com/zX5PdM9.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/0919568a-187d-45d1-afed-e2d849ca7bb4" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src="https://imgur.com/3eRLwJk.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/ad3126c0-7b0d-4eae-a925-2779bada8671" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src="https://imgur.com/wrcJ70j.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/9c490919-8454-492e-90bf-343b7897ac33" height="80%" width="80%" alt=/>
 <br />
 <br />
 
