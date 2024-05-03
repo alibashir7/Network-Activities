@@ -169,11 +169,10 @@ Anytime we type in a command in the terminal of VM2 you will see it generate tra
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/df05dc33-7cb0-4546-8f68-5e1a18a497ee" height="80%" width="80%" alt=/>
 <br />
 <br />
-Now we will filter traffic for dhcp. DHCP(Dynamic Host Configuration Protocal) is used to automatically assign an IP address to a host.
+Now we will filter traffic for dhcp. DHCP(Dynamic Host Configuration Protocal) is used to automatically assign an IP address to a host. To trigger dhcp traffic lets type in the terminal ipconfig /renew. This command is used to automatically  assign our IP address to a host. 
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/1485ee53-87ce-4a84-9ca4-413c9c7067c5" height="80%" width="80%" alt=/>
 <br />
 <br />
-To trigger dhcp traffic lets type in the terminal ipconfig /renew. This command is used to automatically  assign our IP address to a host. 
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/1b090971-0b91-4dc5-8400-c6e840a45ad7" height="80%" width="80%" alt=/>
 <br />
 <br />
