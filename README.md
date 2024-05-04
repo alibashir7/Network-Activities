@@ -5,7 +5,9 @@ In this lab, we will create a Windows 10 and Ubuntu Server virtual machines (VM)
 <br />
 
 <h2>Environments Used </h2>
-- <b>Windows 10</b> (21H2)
+
+- <b>Windows 10</b> (22H2)
+- <b>Ubuntu Server</b> (22.04 LTS)
 
 <h2>Network Protocal and Ports</h2>
 A network protocal is an establish set of rules that determine how data is transmitted between different devices in the same network.
