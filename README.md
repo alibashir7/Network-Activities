@@ -35,7 +35,7 @@ Open Remote Desktop Connection on your computer and type in the public IP addres
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/8ec1e818-910a-4926-a18f-25959d1fac9d" height="80%" width="80%" alt=/>
 <br />
 <br />
-<br /><img src="https://imgur.com/BLP4JKi.png" height="80%" width="80%" alt=/>
+<br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/125dd822-ab7b-4e4b-a943-e0e02cf2ab2a" height="80%" width="80%" alt=/>
 <br />
 <br />
 You will now be logged into the Windows 10 VM. Go through the setup screen until you arrive at the homepage.
