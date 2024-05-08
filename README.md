@@ -175,9 +175,11 @@ Now we will filter traffic for DHCP. DHCP (Dynamic Host Configuration Protocol) 
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/1485ee53-87ce-4a84-9ca4-413c9c7067c5" height="80%" width="80%" alt=/>
 <br />
 <br />
+DNS (Domain Name System) is known as the phonebook of the internet. What DNS does is look up website names (like google.com) to find the corresponding IP addresses, which are like the internet's version of phone numbers. So when you type a website name into your browser, DNS helps your computer find the right IP address to connect to that website. Next, we will search for DNS traffic using the port number. In wireshark, we will type udp.port ==53. Type in the terminal nslookup google.com. This will ask the DNS server for the IP address of apple.com. In Wireshark, we will see a whole bunch of traffic generated. Essentially, we get sources and destination responses between us and the DNS server. In our terminal, we will see some of the IP addresses that Google.com uses. Once again, in the terminal, type nslooklup apple.com, and more traffic will be generated in wireshark. 
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/1b090971-0b91-4dc5-8400-c6e840a45ad7" height="80%" width="80%" alt=/>
 <br />
 <br />
+Finally, we will search for RDP traffic. Remote Desktop Connection (RDP) allows you to access and control another computer from your own, as if you were physically present at that computer. It's useful for remotely troubleshooting issues, accessing files, or running programs on a different machine. I will search for RDP traffic by typing in wireshark tcp.port ==3389. As you can see, we get spammed nonstop with traffic. This is because we are essentially using RDP on the remote desktop connection. 
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/d233b35d-f477-42fc-ae35-08a806b73b82" height="80%" width="80%" alt=/>
 <br />
 <br />
