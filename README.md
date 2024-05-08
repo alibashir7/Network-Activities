@@ -186,5 +186,6 @@ Finally, we will search for RDP traffic. Remote Desktop Connection (RDP) allows 
 
 <h2> Conclusion </h2>
 In conclusion, for this lab, we learned about Azure network firewalls and how to use them. We used Wireshark to observe all different types of traffic on our network, and lastly, we learned about a bunch of network protocols and what they do and what they are used for.As always, don't forget to delete your resources in Azure in order to save on costs. Or if you plan on doing more self-learning with the VMs, make sure to deallocate them in Azure when you are not using them.
-
+<br/>
+<br />
 Thank You!
