@@ -153,25 +153,25 @@ Give wireshark and the command prompt a moment, and you should start to see the 
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/ec27fb55-37bc-4f75-b9ae-e1f73c51ad9a" height="80%" width="80%" alt=/>
 <br />
 <br />
-Next, we will explore SSH traffic on Wireshark. SSH (Secure Shell Protocal) is like a remote desktop connection, except it only gives us access to the other computer's command line. Once again, type in ssh in the wireshark search bar and hit enter. We are now filtering through ssh traffic.
+Next, we will explore SSH traffic on Wireshark. SSH (Secure Shell Protocal) is like a remote desktop connection, except it only gives us access to the other computer's command line. Once again, type in ssh in the wireshark search bar and hit enter. We are now filtering through SSH traffic.
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/cbecf10d-e5c8-49bc-8187-c083bef0c825" height="80%" width="80%" alt=/>
 <br />
 <br />
-Now to ssh into our VM2, we will type in the command prompt: ssh username@private IP address VMs. In my case, that will be ssh cclabusers@10.0.0.5. We will be presented with yes or no; type in yes, then type in your VM2's password. You will not be able to see the password you type in on your screen, so if you get it wrong, just keep trying until you type it in correctly. As we are trying to ssh into our VM2 you will see the ssh traffic generating in wireshark.
+Now to ssh into our VM2, we will type in the command prompt: ssh username@private IP address VMs. In my case, that will be ssh cclabusers@10.0.0.5. We will be presented with yes or no; type in yes, then type in your VM2's password. You will not be able to see the password you type in on your screen, so if you get it wrong, just keep trying until you type it in correctly. As we are trying to ssh into our VM2, you will see the ssh traffic generated in Wireshark.
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/e299ba7e-5093-4ce7-88b6-0568eee98d8a" height="80%" width="80%" alt=/>
 <br />
 <br />
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/4d7b1b8f-c0ad-44ed-8bdd-bc3a8eeeef93" height="80%" width="80%" alt=/>
 <br />
 <br />
-Anytime we type in a command in the terminal of VM2 you will see it generate traffic in wireshark. To get out of the ssh we just type in exit and it returns us to our VM1 terminal.
+Anytime we type in a command in the terminal of VM2, you will see it generate traffic in Wireshark. To exit the VM2 terminal, we just type in exit, and it returns us to our VM1 terminal.
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/9a992b5a-3699-4135-ac2c-ba79f8d93cba" height="80%" width="80%" alt=/>
 <br />
 <br />
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/df05dc33-7cb0-4546-8f68-5e1a18a497ee" height="80%" width="80%" alt=/>
 <br />
 <br />
-Now we will filter traffic for dhcp. DHCP(Dynamic Host Configuration Protocal) is used to automatically assign an IP address to a host. To trigger dhcp traffic lets type in the terminal ipconfig /renew. This command is used to automatically  assign our IP address to a host. 
+Now we will filter traffic for DHCP. DHCP (Dynamic Host Configuration Protocol) is used to automatically assign an IP address to a host. To trigger DHCP traffic, type in the terminal ipconfig/renew. This command is used to automatically assign our IP address to a host. 
 <br /><img src="https://github.com/alibashir7/Network-Activities/assets/165006117/1485ee53-87ce-4a84-9ca4-413c9c7067c5" height="80%" width="80%" alt=/>
 <br />
 <br />
